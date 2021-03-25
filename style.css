@@ -67,10 +67,15 @@ html{
 
 /*logo block*/
 
+.logo{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
 .logo__text{
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
 }
 
 
@@ -315,8 +320,6 @@ html{
 
 /*idea*/
 
-
-
 .idea{
     display: inline-block;
 }
@@ -349,6 +352,44 @@ html{
     text-align: center;
 }
 
+/*search-partner*/
+
+.search-partner__inner{
+    max-width: 940px;
+    margin: 6.5rem auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-partner__title{
+    padding: 2.2rem 0;
+}
+
+.search-partner__text{
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 1.8rem;
+    padding: 1.3rem 0;
+}
+
+.search-partner__form{
+    padding: 2.4rem 0;
+}
+
+.search-partner__form-input{
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    width: 24rem;
+}
+
+.search-partner__form-input::placeholder{
+    color: #ccc;
+}
+
 /*title*/
 .title{
     font-size: 2.2rem;
@@ -361,6 +402,7 @@ html{
 /*btn*/
 
 .btn{
+    font-family: 'Montseratt-bold', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 1.4rem;
