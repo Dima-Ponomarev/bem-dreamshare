@@ -14,17 +14,17 @@ html{
 
 @font-face{
     font-family: 'Montseratt-bold';
-    src: url(./assets/fonts/MotserratBold.ttf);
+    src: url(../assets/fonts/MotserratBold.ttf);
     font-weight: 700;
 }
 @font-face{
     font-family: 'Montseratt-regular';
-    src: url(./assets/fonts/Montserrat\ Regular.ttf);
+    src: url(../assets/fonts/Montserrat\ Regular.ttf);
 }
 
 @font-face{
     font-family: 'Roboto-light';
-    src: url(./assets/fonts/Roboto.ttf);
+    src: url(../assets/fonts/Roboto.ttf);
     font-weight: 300;
 }
 
@@ -37,7 +37,7 @@ html{
 }
 
 .hero__inner{
-    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(./assets/hero.jpg);    
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(../assets/hero.jpg);    
     background-size: cover;
     background-position: center, center;
     min-height: 72vh;
@@ -270,28 +270,28 @@ html{
 
 .person__icon--tv{
     background: #ff4e50;
-    background-image: url(./assets/icons/tv.png);
+    background-image: url(../assets/icons/tv.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .person__icon--tea{
     background: #1cd7ad;
-    background-image: url(./assets/icons/tea.png);
+    background-image: url(../assets/icons/tea.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .person__icon--lab{
     background: #ffa507;
-    background-image: url(./assets/icons/lab.png);
+    background-image: url(../assets/icons/lab.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .person__icon--tg{
     background: #4e73db;
-    background-image: url(./assets/icons/tg.png);
+    background-image: url(../assets/icons/tg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
