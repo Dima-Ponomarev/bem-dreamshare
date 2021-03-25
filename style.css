@@ -78,6 +78,13 @@ html{
     color: white;
 }
 
+.logo__text--small{
+    font-size: 1.6rem;
+}
+
+.logo__text--red{
+    color: #ff4e50;
+}
 
 /*menu block*/
 
@@ -345,7 +352,7 @@ html{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -60%);
 
     font-size: 2.2rem;
     color: white;
@@ -356,7 +363,7 @@ html{
 
 .search-partner__inner{
     max-width: 940px;
-    margin: 6.5rem auto 0 auto;
+    margin: 6.5rem auto 7.9rem auto;
 
     display: flex;
     flex-direction: column;
@@ -390,6 +397,73 @@ html{
     color: #ccc;
 }
 
+.search-partner__form-submit{
+    cursor: pointer;
+}
+
+/*footer*/
+
+.footer{
+    border-top: 4px solid #ff4e50;
+    font-size: 1.4rem;
+}
+
+.footer__inner{
+    max-width: 940px;
+    margin: 3.8rem auto 2rem auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.footer__list-title{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 700;
+    color: #333333;
+
+    padding-bottom: 1rem;
+}
+
+.footer__list{
+    list-style: none;
+
+    font-family: 'Roboto-light', sans-serif;
+    color: #666666;
+}
+
+.footer__list-item{
+    padding: 0.4rem 0;
+}
+
+/*design-logo*/
+
+.design-logo{
+    font-family: 'Montserrat-bold', sans-serif;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-logo__text{
+    color: #cccccc;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+    padding:0 0 0.5rem 4rem ;
+}
+
+
 /*title*/
 .title{
     font-size: 2.2rem;
@@ -414,6 +488,7 @@ html{
 }
 
 .btn:hover{
+
     color: #ff4e50;
     background: #fff;
 }
