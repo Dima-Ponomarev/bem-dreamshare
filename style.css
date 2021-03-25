@@ -206,6 +206,10 @@ html{
 .partners__inner{
     max-width: 940px;
     margin: 6rem auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .partners__title{
@@ -217,6 +221,10 @@ html{
 
     display: flex;
     justify-content: space-between;
+}
+
+.partners__btn{
+    margin-top: 3.2rem;
 }
 
 /*person*/
@@ -278,15 +286,16 @@ html{
 
 .person__name{
     text-align: center;
-    padding: 1.8rem 0;
+    padding: 1.5rem 0;
 }
 
 .person__desc{
     font-family: 'Roboto-light', sans-serif;
     color: #666666;
     text-align: center;
-    
 }
+
+
 
 /*title*/
 .title{
@@ -305,7 +314,7 @@ html{
     font-size: 1.4rem;
 
     border: 2px solid white;
-    border-radius: 1.8rem;
+    border-radius: 2rem;
 
     padding: 0.8rem 1.6rem;
 }
@@ -322,3 +331,15 @@ html{
     padding: 1.1rem 2.4rem;
 }
 
+.btn--red-white{
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    
+    padding: 0.9rem 2.8rem ;
+}
+
+.btn--red-white:hover{
+    color: white;
+    background: #ff4e50;
+
+}
