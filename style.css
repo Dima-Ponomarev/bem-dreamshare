@@ -40,7 +40,7 @@ html{
     background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(./assets/hero.jpg);    
     background-size: cover;
     background-position: center, center;
-    min-height: 76vh;
+    min-height: 72vh;
     max-width: 1440px;
 
     margin: 0 auto;
@@ -70,7 +70,7 @@ html{
 .logo__text{
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 
@@ -106,8 +106,8 @@ html{
     align-items: center;
     justify-content: space-between;
 
-    height: 27rem;
-    transform: translate(0, 32%);
+    max-height: 27rem;
+    transform: translate(0, 37%);
 }
 
 .introduction__title{
@@ -117,7 +117,7 @@ html{
     text-align: center;
     text-transform: uppercase;
 
-    padding-bottom: 2rem;
+    padding-bottom: 2.6rem;
 }
 
 .introduction__text{
@@ -125,19 +125,88 @@ html{
     font-size: 2.4rem;
     font-weight: 300;
 
-    padding-bottom: 2.1rem;
+    padding-bottom: 3rem;
 }
 
 /*main*/
 .main{
     max-width: 1440px;
     margin: 0 auto;
+    font-family: 'Montseratt-bold', sans-serif;
 }
 
 /*how-it-works*/
 
-/*title*/
+.how-it-works__inner{
+    max-width: 940px;
+    margin: 9rem auto 0 auto;
+}
 
+.how-it-works__title{
+    margin-bottom: 3.4rem ;
+}
+
+.how-it-works__card-wrap{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*card*/
+
+.card{
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) );
+    border-radius: 5px;
+}
+
+.card__image{
+    position: relative;
+    z-index: -1;
+    display: block;
+}
+
+.card__content{
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem 2rem;
+
+    color: white;
+}
+
+.card__step{
+    display: inline-block;
+
+    font-family: 'Montseratt-regular', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+    background: #ff4e50;
+    padding: 0.4rem 1.3rem;
+    border-radius: 2rem;
+}
+
+.card__title{
+    font-size: 2.4rem;
+    padding: 1rem 0;
+}
+
+.card__desc{
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 1.4rem;
+    color: #cccccc;
+}
+
+/*title*/
+.title{
+    font-size: 2.2rem;
+    color: #333333;
+    text-align: center;
+}
 
 /*btn*/
 
@@ -161,6 +230,6 @@ html{
     background: #ff4e50;
     border: none;
 
-    padding: 1.1rem 2.4rem
+    padding: 1.1rem 2.4rem;
 }
 
