@@ -1,0 +1,36 @@
+
+@import "common.blocks/normalize.css";
+@import "common.blocks/fonts.css";
+@import "common.blocks/hero.css";
+@import "common.blocks/header.css";
+@import "common.blocks/logo.css";
+@import "common.blocks/menu.css";
+@import "common.blocks/introduction.css";
+@import "common.blocks/main.css";
+@import "common.blocks/how-it-works.css";
+@import "common.blocks/card.css";
+@import "common.blocks/partners.css";
+@import "common.blocks/person.css";
+@import "common.blocks/ideas.css";
+@import "common.blocks/idea.css";
+@import "common.blocks/search-partner.css";
+@import "common.blocks/footer.css";
+@import "common.blocks/design-logo.css";
+@import "common.blocks/title.css";
+@import "common.blocks/btn.css";
+
+/*btn*/
+
+
+
+@media screen and (max-width: 960px){
+
+}
+
+@media screen and (max-width: 764px){
+
+}
+
+@media screen and (max-width: 500px){
+
+}
