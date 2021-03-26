@@ -49,9 +49,6 @@
         max-width: 75%;
     }
     
-    .introduction__text{
-    
-    }
 }
 
 @media screen and (max-width: 500px){
@@ -75,5 +72,10 @@
     .introduction__btn{
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+    
+    .introduction__title,
+    .introduction__text{
+        padding-bottom: 2vh;
     }
 }
