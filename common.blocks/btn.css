@@ -1,44 +1,46 @@
-.btn{
-    font-family: 'Montseratt-bold', sans-serif;
-    color: white;
-    text-decoration: none;
-    font-size: 1.4rem;
+.btn {
+  font-family: "Montseratt-bold", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
 
-    border: 2px solid white;
-    border-radius: 2rem;
+  border: 2px solid white;
+  border-radius: 2rem;
 
-    padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1.6rem;
 }
 
-.btn:hover{
-
-    color: #ff4e50;
-    background: #fff;
+.btn:hover {
+  color: #ff4e50;
+  background: #fff;
 }
 
-.btn--red{
-    background: #ff4e50;
-    border: none;
+.btn--red {
+  background: #ff4e50;
+  border: none;
 
-    padding: 1.1rem 2.4rem;
+  padding: 1.1rem 2.4rem;
 }
 
-.btn--red-white{
-    border: 2px solid #ff4e50;
-    color: #ff4e50;
-    
-    padding: 0.9rem 2.8rem ;
+.btn--red-white {
+  border: 2px solid #ff4e50;
+  color: #ff4e50;
+
+  padding: 0.9rem 2.8rem;
 }
 
-.btn--red-white:hover{
-    color: white;
-    background: #ff4e50;
-
+.btn--red-white:hover {
+  color: white;
+  background: #ff4e50;
 }
 
-@media screen and (max-width:500px){
-    .btn--red,
-    .btn--red-white{
-        padding: 1rem 5rem;
-    }
+@media screen and (max-width: 500px) {
+  .btn--red {
+    padding: 1.2rem 5rem;
+  }
+
+  .btn--red-white {
+    width: 87%;
+    text-align: center;
+  }
 }
