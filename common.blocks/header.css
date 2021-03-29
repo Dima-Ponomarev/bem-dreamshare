@@ -26,11 +26,11 @@
 
 @media screen and (max-width: 500px) {
   .header__inner {
-    min-height: 25vh;
+    min-height: 23vh;
   }
 
   .header__wrap {
-    min-height: 25vh;
+    min-height: 23vh;
     flex-direction: column-reverse;
     justify-content: space-between;
   }
