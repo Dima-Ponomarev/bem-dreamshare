@@ -1,16 +1,22 @@
-.design-logo{
-    font-family: 'Montserrat-bold', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.design-logo {
+  font-family: "Montserrat-bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.design-logo__text{
-    color: #cccccc;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 2px;
+.design-logo__text {
+  color: #cccccc;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
 
-    padding:0 0 0.5rem 0 ;
+  padding: 0 0 0.5rem 0;
+}
+
+@media screen and (max-width: 500px) {
+  .design-logo__text {
+    padding-top: 1rem;
+  }
 }

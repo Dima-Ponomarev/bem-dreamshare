@@ -1,18 +1,24 @@
-.logo{
-    font-family: 'Montserrat-bold', sans-serif;
+.logo {
+  font-family: "Montserrat-bold", sans-serif;
 }
 
-.logo__text{
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: white;
+.logo__text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
 }
 
-.logo__text--small{
-    font-size: 1.6rem;
+.logo__text--small {
+  font-size: 1.6rem;
 }
 
-.logo__text--red{
-    color: #ff4e50;
+.logo__text--red {
+  color: #ff4e50;
+}
+
+@media screen and (max-width: 500px) {
+  .logo__text {
+    padding-bottom: 0.2rem;
+  }
 }
