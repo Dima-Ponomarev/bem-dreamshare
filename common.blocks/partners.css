@@ -21,10 +21,19 @@
   margin-top: 3.2rem;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 768px) {
   .partners__person-wrap {
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .partners__inner {
+    margin-top: 6.2rem;
+  }
+  .partners__title {
+    padding-bottom: 1rem;
+  }
+  .partners__btn {
+    margin-top: 1rem;
   }
 }
 

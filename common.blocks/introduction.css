@@ -50,6 +50,12 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .introduction__inner {
+    transform: translate(0, 45%);
+  }
+}
+
 @media screen and (max-width: 500px) {
   .introduction {
     min-height: 30vh;

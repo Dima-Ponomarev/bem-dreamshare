@@ -38,6 +38,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .search-partner__inner {
+    margin-top: 6.7rem;
+    margin-bottom: 7.6rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .search-partner__form {
     display: flex;
